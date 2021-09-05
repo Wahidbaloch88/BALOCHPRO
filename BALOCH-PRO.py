@@ -85,7 +85,7 @@ logo = """
 
 \033[1;96m◁━━━━━━━━━━━━━━━━━━━━◈✙◈━━━━━━━━━━━━━━━━━━━━▷\033[1;97m
 
-\033[1;96m(~)\033[1;97m Author : Wahid Baloch \033[1;97m[ \033[0;92mIHSANO KANJAR \033[1;97m]
+\033[1;96m(~)\033[1;97m Author : Wahid Baloch \033[1;97m[ \033[0;92mKHAN BROHI \033[1;97m]
 
 \033[1;96m(~)\033[1;97m Github : https://github.com/Wahidbaloch88
 
