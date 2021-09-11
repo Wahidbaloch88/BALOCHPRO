@@ -576,7 +576,7 @@ def menu_select():
 
 		    if 'www.facebook.com' in d['error_msg']:
 
-		        print("\033[1;96m[WAHID-CP] "+uid+" | "+pass1)
+		        print("\x1b[1;96m[WAHID-OK] "+uid+" | "+pass1)
 
 		        cp=open("ok.txt","a")
 
